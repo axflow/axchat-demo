@@ -11,7 +11,7 @@ export default function ChatBox({ messages }: { messages: MessageType[] }) {
               className={
                 message.role === "user"
                   ? "self-start text-black bg-white p-2 rounded mr-32"
-                  : "self-end text-black bg-emerald-200 p-2 rounded ml-32"
+                  : "self-end text-black bg-teal-200 p-2 rounded ml-32"
               }
             >
               {message.content}

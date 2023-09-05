@@ -18,7 +18,7 @@ export default function Form({ input, onChange, onSubmit }: FormProps) {
             placeholder="Ask the assistant anything"
           />
           <button
-            className="px-6 py-2 bg-emerald-300 text-black rounded hover:bg-emerald-400"
+            className="px-6 py-2 bg-teal-300 text-black rounded hover:bg-teal-400"
             type="submit"
           >
             Send
